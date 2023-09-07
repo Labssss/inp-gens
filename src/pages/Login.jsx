@@ -12,7 +12,7 @@ export function Login() {
     const navigate = useNavigate();
 
     const loginUser = async (data) => {
-        await fetch(`https://${process.env.REACT_APP_DOMAIN}/auth/login/`, {
+        await fetch(`https://inp-gens.onrender.com/auth/login/`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
